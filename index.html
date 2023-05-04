@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>       
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <title>MCQ</title>
+        <style>
+            .hide{display: none;}
+            .show{display: block;}
+            #Qtn_style{background-color: bisque;}
+            .First_Container{background-color: rgb(43, 168, 230);}
+            #prev_btn{background-color: rgb(26, 26, 162);}
+            .d-inline-block{background-color: brown;}
+            .Unvisited_Qtn_color{background-color: brown;}
+            .Visited_Qtn_color{background-color: rgba(39, 110, 25, 0.963);}
+            .Current_Qtn_color{background-color: rgb(213, 219, 44);}
+        </style>
+    </head>
+    <body class="bg-dark">
+        <h1 class="text-center fw-bold text-warning mt-2"><u>ONLINE TEST</u></h1>
+        <div class="container border rounded mt-5 First_Container">
+            <div class="row">
+                <div class="col-9">
+                    <div id="Qtn_style" class="row text-center m-2 border rounded py-3">
+                        <h1 id="q_0" class="hide display-6 fw-bold">Click Next to See Questions!</h1>
+                        <h1 id="q_1" class="show display-6 fw-bold">1: What is Full form of HTML?</h1>
+                        <h1 id="q_2" class="hide display-6 fw-bold">2: How many Heading tags are present in HTML?</h1>
+                        <h1 id="q_3" class="hide display-6 fw-bold">3: What are the methods in Form tag?</h1>
+                        <h1 id="q_4" class="hide display-6 fw-bold">4: What CSS are written in the body tags?</h1>
+                        <h1 id="q_5" class="hide display-6 fw-bold">5: Which are the Combination selectors in CSS?</h1>
+                        <h1 id="q_6" class="hide display-6 fw-bold">6: How many device sizes are there in Bootstrap?</h1>
+                        <h1 id="q_7" class="hide display-6 fw-bold">7: How many cols are present in Grid System?</h1>
+                        <h1 id="q_8" class="hide display-6 fw-bold">8: Who is the founder of JavaScript?</h1>
+                        <h1 id="q_9" class="hide display-6 fw-bold">9: Result for !(!True && !False)?</h1>
+                        <h1 id="q_10" class="hide display-6 fw-bold">10: Which is an Iterational Statement?</h1>
+                        <h1 id="q_11" class="hide display-6 fw-bold">11: "$" symbol was used in?</h1>
+                        <h1 id="q_12" class="hide display-6 fw-bold">12: Which one is an event in JavaScript?</h1>
+                        <h1 id="q_13" class="hide display-6 fw-bold">Click Previous to See Questions</h1>
+                    </div>
+                    <div class="row">
+                        <div class="row mt-2">
+                            <div class="col-6 text-center">
+                                <button type="button" class="btn btn-outline-secondary btn-light w-100">
+                                    <div class="form-check">
+                                        <input name="Im_radio" class="form-check-input" type="radio" value="" id="Option_1">
+                                        <label id="option1_0" class="hide fs-3">&nbsp;</label>
+                                        <label id="option1_1" class="form-check-label show fs-3" for="Option_1">Hyper Trim Markup Language</label>
+                                        <label id="option1_2" class="form-check-label hide fs-3" for="Option_1">7</label>
+                                        <label id="option1_3" class="form-check-label hide fs-3" for="Option_1">get, post, put, delete</label>
+                                        <label id="option1_4" class="form-check-label hide fs-3" for="Option_1">InPage</label>
+                                        <label id="option1_5" class="form-check-label hide fs-3" for="Option_1">* , + , > , ~</label>
+                                        <label id="option1_6" class="form-check-label hide fs-3" for="Option_1">5</label>
+                                        <label id="option1_7" class="form-check-label hide fs-3" for="Option_1">15</label>
+                                        <label id="option1_8" class="form-check-label hide fs-3" for="Option_1">Tim Berners Lee</label>
+                                        <label id="option1_9" class="form-check-label hide fs-3" for="Option_1">True</label>
+                                        <label id="option1_10" class="form-check-label hide fs-3" for="Option_1">if</label>
+                                        <label id="option1_11" class="form-check-label hide fs-3" for="Option_1">JQuery</label>
+                                        <label id="option1_12" class="form-check-label hide fs-3" for="Option_1">button</label>
+                                        <label id="option1_13" class="hide fs-3">&nbsp;</label>
+                                    </div>
+                                </button>
+                            </div>
+                            <div class="col-6 text-center">
+                                <button type="button" class="btn btn-outline-secondary btn-light w-100">
+                                    <div class="form-check">
+                                        <input name="Im_radio" class="form-check-input" type="radio" value="" id="Option_2">
+                                        <label id="option2_0" class="hide fs-3">&nbsp;</label>
+                                        <label id="option2_1" class="form-check-label show fs-3" for="Option_2">Hyper Text Markup Language</label>
+                                        <label id="option2_2" class="form-check-label hide fs-3" for="Option_2">8</label>
+                                        <label id="option2_3" class="form-check-label hide fs-3" for="Option_2">give, post, ready, delete</label>
+                                        <label id="option2_4" class="form-check-label hide fs-3" for="Option_2">InLine</label>
+                                        <label id="option2_5" class="form-check-label hide fs-3" for="Option_2">space , - , + , ></label>
+                                        <label id="option2_6" class="form-check-label hide fs-3" for="Option_2">4</label>
+                                        <label id="option2_7" class="form-check-label hide fs-3" for="Option_2">13</label>
+                                        <label id="option2_8" class="form-check-label hide fs-3" for="Option_2">Brendan Pich</label>
+                                        <label id="option2_9" class="form-check-label hide fs-3" for="Option_2">False</label>
+                                        <label id="option2_10" class="form-check-label hide fs-3" for="Option_2">and</label>
+                                        <label id="option2_11" class="form-check-label hide fs-3" for="Option_2">Bootstrap</label>
+                                        <label id="option2_12" class="form-check-label hide fs-3" for="Option_2">required</label>
+                                        <label id="option2_13" class="hide fs-3">&nbsp;</label>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-6 text-center">
+                                <button type="button" class="btn btn-outline-secondary btn-light w-100">
+                                    <div class="form-check">
+                                        <input name="Im_radio" class="form-check-input" type="radio" value="" id="Option_3">
+                                        <label id="option3_0" class="hide fs-3">&nbsp;</label>
+                                        <label id="option3_1" class="form-check-label show fs-3" for="Option_3">Hyper Text Multi Language</label>
+                                        <label id="option3_2" class="form-check-label hide fs-3" for="Option_3">6</label>
+                                        <label id="option3_3" class="form-check-label hide fs-3" for="Option_3">get, present, update, delete</label>
+                                        <label id="option3_4" class="form-check-label hide fs-3" for="Option_3">External</label>
+                                        <label id="option3_5" class="form-check-label hide fs-3" for="Option_3">space , ~ , + , ></label>
+                                        <label id="option3_6" class="form-check-label hide fs-3" for="Option_3">6</label>
+                                        <label id="option3_7" class="form-check-label hide fs-3" for="Option_3">10</label>
+                                        <label id="option3_8" class="form-check-label hide fs-3" for="Option_3">Haken Wium Lie</label>
+                                        <label id="option3_9" class="form-check-label hide fs-3" for="Option_3">Syntax Error</label>
+                                        <label id="option3_10" class="form-check-label hide fs-3" for="Option_3">for</label>
+                                        <label id="option3_11" class="form-check-label hide fs-3" for="Option_3">CSS</label>
+                                        <label id="option3_12" class="form-check-label hide fs-3" for="Option_3">border</label>
+                                        <label id="option3_13" class="hide fs-3">&nbsp;</label>
+                                    </div>
+                                </button>
+                            </div>
+                            <div class="col-6 text-center">
+                                <button type="button" class="btn btn-outline-secondary btn-light w-100">
+                                    <div class="form-check">
+                                        <input name="Im_radio" class="form-check-input" type="radio" value="" id="Option_4">
+                                        <label id="option4_0" class="hide fs-3">&nbsp;</label>
+                                        <label id="option4_1" class="form-check-label show fs-3" for="Option_4">Hover Text Markup Language</label>
+                                        <label id="option4_2" class="form-check-label hide fs-3" for="Option_4">9</label>
+                                        <label id="option4_3" class="form-check-label hide fs-3" for="Option_4">hide, show, update, delete</label>
+                                        <label id="option4_4" class="form-check-label hide fs-3" for="Option_4">None of the above</label>
+                                        <label id="option4_5" class="form-check-label hide fs-3" for="Option_4">= , - , & , ^</label>
+                                        <label id="option4_6" class="form-check-label hide fs-3" for="Option_4">7</label>
+                                        <label id="option4_7" class="form-check-label hide fs-3" for="Option_4">12</label>
+                                        <label id="option4_8" class="form-check-label hide fs-3" for="Option_4">Adam Wathan</label>
+                                        <label id="option4_9" class="form-check-label hide fs-3" for="Option_4">None of the above</label>
+                                        <label id="option4_10" class="form-check-label hide fs-3" for="Option_4">var</label>
+                                        <label id="option4_11" class="form-check-label hide fs-3" for="Option_4">HTML</label>
+                                        <label id="option4_12" class="form-check-label hide fs-3" for="Option_4">onclick</label>
+                                        <label id="option4_13" class="hide fs-3">&nbsp;</label>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row my-2">
+                        <div class="col-9"></div>
+                        <div class="col-1 m-2"><button id="prev_btn" class="btn btn-primary w-auto">Previous</button></div>
+                        <div class="col-1 m-2"><button id="next_btn" class="btn btn-success w-auto">Next</button></div>
+                    </div>
+                </div>
+                <div class="col-3 border rounded my-2 text-center pt-3 bg-dark" style="width:270px;height:17rem;">
+                    <div class="row">
+                        <button id="c_1" onclick="loadQuestion(1);" class="col-3 p-3 m-2 d-inline-block border rounded" style="width:50px"><b class="text-light">1</b></button>
+                        <button id="c_2" onclick="loadQuestion(2);" class="col-3 p-3 m-2 d-inline-block border rounded" style="width:50px"><b class="text-light">2</b></button>
+                        <button id="c_3" onclick="loadQuestion(3);" class="col-3 p-3 m-2 d-inline-block border rounded" style="width:50px"><b class="text-light">3</b></button>
+                        <button id="c_4" onclick="loadQuestion(4);" class="col-3 p-3 m-2 d-inline-block border rounded" style="width:50px"><b class="text-light">4</b></button>
+                    </div>
+                    <div class="row">
+                        <button id="c_5" onclick="loadQuestion(5);" class="col-3 p-3 m-2 d-inline-block border rounded" style="width:50px"><b class="text-light">5</b></button>
+                        <button id="c_6" onclick="loadQuestion(6);" class="col-3 p-3 m-2 d-inline-block border rounded" style="width:50px"><b class="text-light">6</b></button>
+                        <button id="c_7" onclick="loadQuestion(7);" class="col-3 p-3 m-2 d-inline-block border rounded" style="width:50px"><b class="text-light">7</b></button>
+                        <button id="c_8" onclick="loadQuestion(8);" class="col-3 p-3 m-2 d-inline-block border rounded" style="width:50px"><b class="text-light">8</b></button>
+                    </div>
+                    <div class="row">
+                        <button id="c_9" onclick="loadQuestion(9);" class="col-3 p-3 m-2 d-inline-block border rounded" style="width:50px"><b class="text-light">9</b></button>
+                        <button id="c_10" onclick="loadQuestion(10);" class="col-3 p-3 m-2 d-inline-block border rounded" style="width:50px"><b class="text-light">10</b></button>
+                        <button id="c_11" onclick="loadQuestion(11);" class="col-3 p-3 m-2 d-inline-block border rounded" style="width:50px"><b class="text-light">11</b></button>
+                        <button id="c_12" onclick="loadQuestion(12);" class="col-3 p-3 m-2 d-inline-block border rounded" style="width:50px"><b class="text-light">12</b></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="container2" class="container mt-5 hide">
+            <div class="row fs-3">
+                <div class="col-6 offset-3 border rounded p-2">
+                    <div class="row m-2">
+                        <div class="col-3 rounded Current_Qtn_color" style="width:40px;height:40px"></div>
+                        <div class="col-8 font-monospace text-light">--> Current Question</div>
+                    </div>
+                    <div class="row m-2">
+                        <div class="col-3 rounded Visited_Qtn_color" style="width:40px;height:40px"></div>
+                        <div class="col-8 font-monospace text-light">--> Visited Question</div>
+                    </div>
+                    <div class="row m-2">
+                        <div class="col-3 rounded Unvisited_Qtn_color" style="width:40px;height:40px"></div>
+                        <div class="col-8 font-monospace text-light">--> Unvisited Question</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        qno=1;
+        $('#c_'+qno).css("background", "rgb(213, 219, 44)");
+        $('#next_btn').click(function(){
+            $('#prev_btn').slideDown();    
+            $('#q_'+qno).removeClass("show").addClass("hide").next().removeClass("hide").addClass("animate__animated animate__flipInX");
+            $('#c_'+(qno+1)).css("background", "rgb(213, 219, 44)"); // yellow
+            $('#c_'+qno).css("background", "rgba(39, 110, 25, 0.963)"); // green
+            $('#option1_'+qno).removeClass("show").addClass("hide").next().removeClass("hide").addClass("show animate__animated animate__lightSpeedInRight");
+            $('#option2_'+qno).removeClass("show").addClass("hide").next().removeClass("hide").addClass("show animate__animated animate__lightSpeedInRight");
+            $('#option3_'+qno).removeClass("show").addClass("hide").next().removeClass("hide").addClass("show animate__animated animate__lightSpeedInRight");
+            $('#option4_'+qno).removeClass("show").addClass("hide").next().removeClass("hide").addClass("show animate__animated animate__lightSpeedInRight");
+            qno++;
+            if(qno>12)
+            {
+                alert("No other Questions!");
+                $('#next_btn').slideUp();    
+                qno=13;
+            }
+        });
+        $('#prev_btn').click(function(){
+            $('#next_btn').slideDown();    
+            $('#q_'+qno).removeClass("show").addClass("hide").prev().removeClass("hide").addClass("show animate__animated animate__flipInX");
+            $('#c_'+(qno-1)).css("background", "rgb(213, 219, 44)");
+            $('#c_'+qno).css("background", "rgba(39, 110, 25, 0.963)");
+            $('#option1_'+qno).removeClass("show").addClass("hide").prev().removeClass("hide").addClass("show animate__animated animate__lightSpeedInRight");
+            $('#option2_'+qno).removeClass("show").addClass("hide").prev().removeClass("hide").addClass("show animate__animated animate__lightSpeedInRight");
+            $('#option3_'+qno).removeClass("show").addClass("hide").prev().removeClass("hide").addClass("show animate__animated animate__lightSpeedInRight");
+            $('#option4_'+qno).removeClass("show").addClass("hide").prev().removeClass("hide").addClass("show animate__animated animate__lightSpeedInRight");
+            qno--;
+            if(qno<1)
+            {
+                alert("You reached minimum Question!");
+                $('#prev_btn').slideUp();    
+                qno=0;
+            }
+        });
+        $(document).ready(function(){
+            $('#container2').removeClass('hide').addClass('animate__animated animate__flipInY');
+            $('.First_Container').addClass("show animate__animated animate__lightSpeedInRight");
+        });
+
+        function loadQuestion(Current_qtn)
+        {
+            $('#q_'+qno).removeClass("show").addClass("hide");
+            $('#q_'+Current_qtn).removeClass("hide").addClass("animate__animated animate__flipInX");
+            $('#c_'+Current_qtn).css("background", "rgb(213, 219, 44)"); // yellow
+            $('#c_'+qno).css("background", "rgba(39, 110, 25, 0.963)"); // green
+            $('#option1_'+qno).removeClass("show").addClass("hide");
+            $('#option2_'+qno).removeClass("show").addClass("hide");
+            $('#option3_'+qno).removeClass("show").addClass("hide");
+            $('#option4_'+qno).removeClass("show").addClass("hide");
+            $('#option1_'+Current_qtn).removeClass("hide").addClass("show animate__animated animate__lightSpeedInRight");
+            $('#option2_'+Current_qtn).removeClass("hide").addClass("show animate__animated animate__lightSpeedInRight");
+            $('#option3_'+Current_qtn).removeClass("hide").addClass("show animate__animated animate__lightSpeedInRight");
+            $('#option4_'+Current_qtn).removeClass("hide").addClass("show animate__animated animate__lightSpeedInRight");
+            qno=Current_qtn;
+        }
+    </script>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+</html>
